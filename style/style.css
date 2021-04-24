@@ -1,3 +1,6 @@
+html{
+    box-sizing: border-box;
+}
 section{
     background-color: #1687a0;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +9,7 @@ h3{
     text-align: center;
     font-size: 30px;
     color: red;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 form{
@@ -24,5 +27,23 @@ button{
 }
 input,textarea,button{
     margin: 10px;
+}
+
+ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+li{
+    float: left;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+a:hover{
+    color: red;
+    transition: .4s;
 }
 

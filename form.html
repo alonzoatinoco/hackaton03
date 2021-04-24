@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario -Reto 3</h1>
+    <form action="">
+        <div>
+            <label for="nom">Nombre:</label>
+            <input type="text" placeholder="Nombre" name="nom">
+        </div>
+        <div>
+            <label for="ape">Apellido:</label>
+            <input type="text" placeholder="Apellido" name="ape">
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" placeholder="Edad" min="18" max="80" name="edad">
+        </div>
+        <div>
+            <label for="sex">Sexo:</label>
+            <input type="radio" checked value="M" name="sex">M
+            <input type="radio" value="F" name="sex">F
+        </div>
+        <div>
+            <label for="dni">DNI:</label>
+            <input type="text" placeholder="Numero de identidad" name="dni" minlength="8" maxlength="9">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="correo@ejemplo.com" name="email">
+        </div>
+
+    </form>
+
+    <style>
+        form{
+            border: 1px solid #d3cccc;
+            border-radius: 5px;
+            display: flex;
+        }
+        div{
+            padding: 10px;
+        }
+        input{
+            border: 1px solid #3A3A3A;
+            border-radius: 5px;
+        }
+        input:focus{
+            background-color: rgb(253, 251, 142);
+        }
+    </style>
+</body>
+</html>
